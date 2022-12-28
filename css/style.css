@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+main section {
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+  text-align: center;
+}
+.container .count {
+  margin: 0px 35px;
+}
+.container .count i,
+.container .count h1 {
+  font-size: 50px;
+  margin: 15px 0px;
+}
+.container .count span {
+  font-size: 22px;
+}
